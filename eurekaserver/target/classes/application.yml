@@ -1,0 +1,17 @@
+server:
+  port: 8761
+
+spring:
+  cloud:
+    inetutils:
+      timeout-seconds: 5
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+  #关闭自我保护模式
+  server:
+    enable-self-preservation: false
