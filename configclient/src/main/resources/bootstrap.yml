@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      name: configclient
+      label: master
+      discovery:
+        enabled: true
+        # 也可以使用uri来查找
+        service-id: configserver
