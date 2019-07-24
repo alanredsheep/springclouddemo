@@ -9,6 +9,6 @@ spring:
         git:
           uri: https://github.com/alanredsheep/springclouddemo.git
           search-paths: config
-          username: alanredsheep
-          password: 626zhou626
+          username: {username}
+          password: {password}
       label: master
